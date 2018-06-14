@@ -1,0 +1,54 @@
+
+#wrapper {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#startButton {
+  width: 25%;
+}
+
+#myInput {
+
+  background: none;
+  border: 2px dashed white;
+  color: white;
+  font-family:  SchoolFont;
+  font-size: 100%;
+  width: 100px;
+}
+
+#answers {
+  width: 100%;
+  margin: auto;
+}
+
+#userAnswerDiv {
+  margin: 20px;
+  padding: 5px;
+  border: solid red 2px;
+}
+
+#assignmentsDiv {
+  margin: 20px;
+  padding: 5px;
+  border: solid red 2px;
+}
+
+#correctAnswerDiv {
+  margin: 20px;
+  padding: 5px;
+  border: solid red 2px;
+}
+
+@font-face {
+  font-family: SchoolFont;
+  src: url(fonts/schoolfontNormal.ttf);
+}
+
+body {
+  font-size: 275%;
+  color: red;
+  font-family: SchoolFont;
+}
